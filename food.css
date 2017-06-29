@@ -1,0 +1,61 @@
+nav{
+  position: fixed;
+  top:0;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #9B3F49;
+  opacity: .9;
+  font-family: serif;
+  z-index: 999;
+}
+#showcase {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("https://media.timeout.com/images/103485092/1372/772/image.jpg");
+  width: auto;
+  height: 600px;
+  padding-top: 150px;
+  margin: 0px;
+  color: white;
+  font-family: serif;
+  text-align: center;
+  padding-bottom: opx;
+}
+
+button {
+  background-color: #9B3F49;
+}
+
+#foot{
+  background-color: #9B3F49;
+  opacity: .9;
+  font-family: serif;
+}
+
+h4 {
+  text-align: center;
+  font-family: serif;
+  color: #43434D;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+.image-hide {
+  display: none;
+}
+
+.image-show {
+  display: inline;
+}
+
+.card {
+  min-height: 500px !important;
+}
+
+#dropdown1 {
+  width: 200px !important;
+}
+
+#dropdown1 li{
+  padding: 1em;
+  line-height: 1.5 !important;
+}
