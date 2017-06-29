@@ -77,7 +77,7 @@ $(".location-button").click(function(event) {
 
 function appendCard(title, image, food, address, offers, word, link) {
   if (!image) {
-    image = 'http://www.topmenu.com/img/placeholder_en_514x514.png?1450896735';
+    image = 'https://www.topmenu.com/img/placeholder_en_514x514.png?1450896735';
   }
 
   var card = `<div class="col s12 m6 l4">

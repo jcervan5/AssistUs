@@ -8,6 +8,7 @@ nav{
   font-family: serif;
   z-index: 999;
 }
+
 #showcase {
   background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("https://media.timeout.com/images/103485092/1372/772/image.jpg");
   width: auto;
