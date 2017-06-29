@@ -35,6 +35,7 @@ $(".location-button").click(function(event) {
       "user-key": "ded3b6a46f8822f9c0f7fb1260cbdc07",
     }
   };
+
   function displayLoading() {
     loading.classList.remove('image-hide')
   }
@@ -42,6 +43,7 @@ $(".location-button").click(function(event) {
   function hideLoading() {
     loading.classList.add('image-hide')
   }
+
   $.ajax(locationRequest).then(function (data1) {
     hideLoading();
     var entityId = data1.location_suggestions[0].entity_id;
@@ -54,6 +56,7 @@ $(".location-button").click(function(event) {
         "user-key": "ded3b6a46f8822f9c0f7fb1260cbdc07",
       }
     };
+
     $.ajax(detailsRequest).then(function (data2){
       var restaurants = data2.best_rated_restaurant;
       $('.row').empty();
@@ -65,30 +68,19 @@ $(".location-button").click(function(event) {
         let offers = restaurants[i].restaurant.user_rating.aggregate_rating;
         let word = restaurants[i].restaurant.user_rating.rating_text;
         let link = restaurants[i].restaurant.menu_url;
-console.log(restaurants);
+
         appendCard(title, image, food, address, offers, word, link)
       }
     })
-
-
   })
-
 });
-
-
-// $.ajax(settings).done(function (response) {
-//   console.log(response);
-// });
-
 
 function appendCard(title, image, food, address, offers, word, link) {
   if (!image) {
-    // image = 'http://www.placeabout.com/assets/7df2224e/img/placeholder-food.png';
     image = 'http://www.topmenu.com/img/placeholder_en_514x514.png?1450896735';
   }
 
-  var card = `
-      <div class="col s12 m6 l4">
+  var card = `<div class="col s12 m6 l4">
       <div class="card" id="card1">
       <div class="card-image waves-effect waves-block waves-light">
       <img class="activator responsive-img" src="${image}"></div>
@@ -100,11 +92,7 @@ function appendCard(title, image, food, address, offers, word, link) {
       <p>Review: ${word}</p>
       <p><a href="${link}">More information</a></p>
       </div>
-      </div>
-      `
+      </div>`
 
     $('.row').append($(card))
-
-
-
 }
