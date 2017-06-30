@@ -1,8 +1,6 @@
 ASSIST US 
 - wireframe https://wireframe.cc/2cLn3V
 
-![Image](Screenshot.jpg)
-
 About  
 - Assist us is an app used to find the top rated restaurants in your city.
 - Using the search bar type in your city and a list of restaurants will display.
