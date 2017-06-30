@@ -1,6 +1,6 @@
 # Assist Us
 - Top 10 rated restaurants 
-![Image](AssistUs/Screenshot.png)
+![Image](https://raw.githubusercontent.com/jcervan5/AssistUs/master/Screenshot.png)
 ## About 
 - Assist us is an app used to find the top rated restaurants in your city.
 - Using the search bar type in your city and a list of restaurants will display.
