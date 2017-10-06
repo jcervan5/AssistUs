@@ -15,4 +15,4 @@ Deployment
   firebase
     https://assist-us.firebaseapp.com/
 
-![Image](Screenshot)
+![Image](Screenshot.jpg)

@@ -1,6 +1,6 @@
-nav{
+nav {
   position: fixed;
-  top:0;
+  top: 0;
   padding-left: 20px;
   padding-right: 20px;
   background-color: #9B3F49;
@@ -10,7 +10,7 @@ nav{
 }
 
 #showcase {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("https://media.timeout.com/images/103485092/1372/772/image.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://media.timeout.com/images/103485092/1372/772/image.jpg");
   width: auto;
   height: 600px;
   padding-top: 150px;
@@ -25,7 +25,7 @@ button {
   background-color: #9B3F49;
 }
 
-#foot{
+#foot {
   background-color: #9B3F49;
   opacity: .9;
   font-family: serif;
@@ -37,7 +37,6 @@ h4 {
   color: #43434D;
   padding: 20px;
   margin: 20px;
-
 }
 
 .image-hide {
@@ -56,7 +55,7 @@ h4 {
   width: 200px !important;
 }
 
-#dropdown1 li{
+#dropdown1 li {
   padding: 1em;
   line-height: 1.5 !important;
 }
